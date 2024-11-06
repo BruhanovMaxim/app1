@@ -22,11 +22,17 @@ html {
 }
 
 main {
-  margin: 50px 0 50px 0;
+  margin: 30px 0 30px 0;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
 }
 
 p {
-  text-align: start;
+  text-align: justify;
 }
 
 .container {
@@ -102,7 +108,11 @@ nav a {
   justify-content: center;
   padding: 10px;
   margin-top: 15px;
-  width: 300px;
+  max-width: 310px;
+}
+
+.info p {
+  text-align: left;
 }
 
 /* ---------------------------------------------------------------------- COURSES */
