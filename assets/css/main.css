@@ -22,11 +22,11 @@ html {
 }
 
 main {
-  margin-top: 50px;
+  margin: 50px 0 50px 0;
 }
 
 p {
-  text-align: justify;
+  text-align: start;
 }
 
 .container {
@@ -71,13 +71,14 @@ nav a {
 }
 
 .back a {
+  display: flex;
   text-decoration: none;
   text-transform: uppercase;
   color: inherit;
   padding: 10px;
   border-radius: 30px;
   border: 1px solid var(--color_border);
-  margin: 50px 0 50px 0;
+  margin: 10px 0 10px 0;
 }
 
 .nav-links {
@@ -94,6 +95,14 @@ nav a {
 .nav-links:hover {
   background-color: var(--color_border);
   transition: background-color 0.3s ease;
+}
+
+.info {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 15px;
+  width: 300px;
 }
 
 /* ---------------------------------------------------------------------- COURSES */
