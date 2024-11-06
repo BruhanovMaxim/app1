@@ -42,12 +42,11 @@ p {
 
 .main-container__logo {
   width: 120px;
+  margin-bottom: 30px;
   filter: drop-shadow(0 0 30px rgba(255, 255, 255, 0.6));
 }
 
 .main-container__title {
-  padding: 10px;
-  margin-top: 30px;
   background-image: linear-gradient(19deg, #21D4FD 0%, #ca5fff 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -69,6 +68,16 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   color: inherit;
+}
+
+.back a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid var(--color_border);
+  margin: 50px 0 50px 0;
 }
 
 .nav-links {
