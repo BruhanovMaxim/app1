@@ -21,8 +21,18 @@ html {
   color: var(--color_text);
 }
 
-main {
+/* main {
+  display: flex;
   margin: 30px 0 30px 0;
+} */
+
+.wrapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 340px;
+  margin: 0 auto;
+  height: 100vh;
 }
 
 h1,
@@ -87,6 +97,12 @@ nav a {
   margin: 10px 0 10px 0;
 }
 
+.back a:hover {
+  background-color: var(--color_border);
+  border-bottom: 3px solid var(--color_border);
+  transition: background-color 0.3s ease;
+}
+
 .nav-links {
   display: flex;
   justify-content: center;
@@ -94,12 +110,13 @@ nav a {
   margin-top: 15px;
   width: 300px;
   border: 1px solid var(--color_border);
-  border-radius: 5px;
+  border-radius: 0px 76px 0px 76px;
   cursor: pointer;
 }
 
 .nav-links:hover {
   background-color: var(--color_border);
+  border-bottom: 3px solid var(--color_border);
   transition: background-color 0.3s ease;
 }
 
@@ -119,7 +136,7 @@ nav a {
 
 .container__card {
   border: 1px solid var(--color_border);
-  border-radius: 8px;
+  border-radius: 5px 32px 5px 32px;
   margin-bottom: 30px;
 }
 
